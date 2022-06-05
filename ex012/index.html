@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio em HTML</title>
+</head>
+<body>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em html</p>
+    <audio src="./As You Fade Away - NEFFEX.mp3" controls autoplay></audio>
+    <!--MP3-WAV-OGG-->
+
+    <audio preload="metadata" controls autoplay>
+        <source src="./As You Fade Away - NEFFEX.mp3" type="audio/mpeg">
+        <source src="./As You Fade Away - NEFFEX.ogg" type="audio/ogg">
+        <source src="./As You Fade Away - NEFFEX.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+        <a href="./As You Fade Away - NEFFEX.mp3">Clique aqui para baixar o arquivo MP3</a>
+    </audio>
+</body>
+</html>
